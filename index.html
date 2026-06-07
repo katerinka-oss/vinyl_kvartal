@@ -1,0 +1,645 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VINYL·KVARTAL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@500&family=Onest:wght@400;500;700&family=Unbounded:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-loader" aria-hidden="true">
+      <div class="loader-inner">
+        <div class="loader-record" aria-hidden="true">
+          <span></span>
+        </div>
+        <p>VINYL KVARTAL</p>
+        <small>настраиваем&nbsp;звук</small>
+      </div>
+    </div>
+
+    <header class="site-header" aria-label="Основная навигация">
+      <nav class="nav-wrap">
+        <a class="brand" href="#" aria-label="VINYL·KVARTAL">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-name">VINYL·KVARTAL</span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links">
+          <a href="#learn">Обучение</a>
+          <a href="#about">О&nbsp;школе</a>
+          <a href="#pricing">Тарифы</a>
+          <a href="#vinyl">Винил</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#contacts">Контакты</a>
+        </div>
+
+        <a class="header-cta" href="#trial">Пробный урок</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-wrap">
+          <div class="hero-copy">
+            <p class="kicker"><span></span>Музыкальная школа · Минск · с&nbsp;2014</p>
+
+            <h1 id="hero-title">
+              <span>Играй</span>
+              <span class="accent">громче.</span>
+              <span class="outline">живи</span>
+              <span>на&nbsp;виниле.</span>
+            </h1>
+
+            <p class="hero-text">
+              Учим вокалу, барабанам, фортепиано и&nbsp;гитаре — от&nbsp;первой ноты до&nbsp;своей группы.
+              А&nbsp;ещё собираем редкий винил рок-эпохи 70–90х.
+            </p>
+
+            <div class="hero-actions">
+              <a class="primary-action" href="#trial">
+                Записаться на&nbsp;пробный
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6"></path>
+                </svg>
+              </a>
+              <a class="ghost-action" href="#vinyl">Каталог винила</a>
+            </div>
+
+            <dl class="hero-stats">
+              <div>
+                <dt>1200+</dt>
+                <dd>учеников за&nbsp;10 лет</dd>
+              </div>
+              <div>
+                <dt>4</dt>
+                <dd>направления</dd>
+              </div>
+              <div>
+                <dt>600+</dt>
+                <dd>пластинок в&nbsp;каталоге</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="turntable" aria-label="Интерактивная виниловая пластинка">
+            <div class="record" aria-hidden="true">
+              <div class="record-label">
+                <strong>VINYL<br />KVARTAL</strong>
+                <span>SIDE A · 33⅓</span>
+              </div>
+            </div>
+
+            <div class="tonearm" aria-hidden="true">
+              <span class="weight"></span>
+              <span class="pivot"></span>
+              <span class="arm"></span>
+              <span class="head"></span>
+            </div>
+
+            <div class="deck-controls">
+              <div class="deck-caption">
+                <span class="dot" aria-hidden="true"></span>
+                <span class="txt-play">игла поднята</span>
+                <span class="txt-stop">пластинка играет</span>
+              </div>
+              <button
+                class="record-button"
+                type="button"
+                aria-label="Опустить иглу и запустить пластинку"
+                aria-pressed="false"
+              >
+                <span class="play-icon" aria-hidden="true"></span>
+                <span>Опустить иглу</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>Вокал <i>·</i> Барабаны <i>·</i> Фортепиано <i>·</i> Гитара <span class="star">✦</span></span>
+          <span>Винил рок-эпохи <i>·</i> Концерты учеников <i>·</i> Своя группа за&nbsp;год <span class="star">✦</span></span>
+          <span>Вокал <i>·</i> Барабаны <i>·</i> Фортепиано <i>·</i> Гитара <span class="star">✦</span></span>
+          <span>Винил рок-эпохи <i>·</i> Концерты учеников <i>·</i> Своя группа за&nbsp;год <span class="star">✦</span></span>
+        </div>
+      </div>
+
+      <section class="directions" id="learn" aria-labelledby="directions-title">
+        <div class="directions-wrap">
+          <div class="section-head">
+            <p class="section-kicker">Чему учим</p>
+            <h2 id="directions-title">
+              <span>Четыре</span>
+              <span class="accent">направления.</span>
+              <span>Один драйв.</span>
+            </h2>
+            <p>
+              Индивидуально или в&nbsp;группе, с&nbsp;нуля или прокачать своё. Преподаватели — действующие
+              музыканты, а&nbsp;не теоретики.
+            </p>
+          </div>
+
+          <div class="directions-grid">
+            <article class="direction-card">
+              <div class="direction-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="M12 2a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path>
+                  <path d="M19 10v1a7 7 0 0 1-14 0v-1"></path>
+                  <path d="M12 18v4"></path>
+                  <path d="M8 22h8"></path>
+                </svg>
+              </div>
+              <div class="direction-body">
+                <span class="direction-number">01</span>
+                <h3>Вокал</h3>
+                <p>Дыхание, диапазон,<br />подача. Поставим<br />голос так, чтобы<br />держал и&nbsp;балладу,<br />и&nbsp;рок-надрыв.</p>
+                <small>🕐 от&nbsp;60 мин · с&nbsp;нуля</small>
+              </div>
+            </article>
+
+            <article class="direction-card">
+              <div class="direction-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="m2 2 8 8"></path>
+                  <path d="m22 2-8 8"></path>
+                  <ellipse cx="12" cy="12" rx="8" ry="4"></ellipse>
+                  <path d="M4 12v5c0 2.2 3.6 4 8 4s8-1.8 8-4v-5"></path>
+                </svg>
+              </div>
+              <div class="direction-body">
+                <span class="direction-number">02</span>
+                <h3>Барабаны</h3>
+                <p>Грув, координация,<br />скорость. От&nbsp;первой<br />сбивки<br />до&nbsp;полноценной<br />партии в&nbsp;группе.</p>
+                <small>🕐 от&nbsp;60 мин · своя установка</small>
+              </div>
+            </article>
+
+            <article class="direction-card">
+              <div class="direction-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <rect x="4" y="6" width="16" height="12" rx="2"></rect>
+                  <path d="M8 6v8"></path>
+                  <path d="M12 6v8"></path>
+                  <path d="M16 6v8"></path>
+                  <path d="M4 14h16"></path>
+                </svg>
+              </div>
+              <div class="direction-body">
+                <span class="direction-number">03</span>
+                <h3>Фортепиано</h3>
+                <p>Классика<br />и&nbsp;современка, аккорды<br />и&nbsp;импровизация.<br />Играешь любимое<br />уже на&nbsp;первых уроках.</p>
+                <small>🕐 от&nbsp;60 мин · акустика</small>
+              </div>
+            </article>
+
+            <article class="direction-card">
+              <div class="direction-icon" aria-hidden="true">
+                <svg class="electric-guitar-icon" viewBox="0 0 24 24">
+                  <path class="guitar-body" d="M8.3 10.8 5.6 9.4 4.6 12.8 2.2 14.5l2.7 2.2-.5 3.4 3.5-1 2 2.5 1.5-3.2 3.2-3.2-3.1-3.1-3.2-1.3Z"></path>
+                  <path d="m12.5 12.3 7-7"></path>
+                  <path d="m17.5 3.5 3 3"></path>
+                  <path d="m19.2 2.2 2.6 2.6"></path>
+                  <circle cx="7.6" cy="15.6" r="1.2"></circle>
+                </svg>
+              </div>
+              <div class="direction-body">
+                <span class="direction-number">04</span>
+                <h3>Гитара</h3>
+                <p>Акустика<br />и&nbsp;электро,<br />риффы и&nbsp;соло.<br />Разберём твой<br />любимый трек<br />по&nbsp;нотам и&nbsp;табам.</p>
+                <small>🕐 от&nbsp;60 мин · усилитель</small>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about" aria-labelledby="about-title">
+        <div class="about-wrap">
+          <div class="about-grid">
+            <figure class="about-photo">
+              <img src="assets/about-studio.png" alt="Сцена музыкальной школы с барабанами, гитарой и усилителями" />
+            </figure>
+
+            <div class="about-body">
+              <p class="about-kicker">О&nbsp;школе</p>
+              <h2 id="about-title" class="visually-hidden">О&nbsp;школе VINYL KVARTAL</h2>
+              <p class="about-lead">
+                Мы начинали с&nbsp;одной комнаты, старого усилителя и&nbsp;стопки пластинок. Сегодня это школа,
+                где живёт музыка.
+              </p>
+              <p>
+                VINYL KVARTAL — место, где учат не&nbsp;ради «корочки», а&nbsp;ради сцены. Мы собрали преподавателей,
+                которые сами играют в&nbsp;группах, записывают альбомы и&nbsp;выходят на&nbsp;концерты.
+              </p>
+              <p>
+                Винил для&nbsp;нас — не&nbsp;ностальгия, а&nbsp;школа вкуса. Слушаем оригиналы рок-эпохи, разбираем,
+                как это сделано, и&nbsp;учимся играть так же живо.
+              </p>
+
+              <div class="about-tags" aria-label="Особенности школы">
+                <span><strong>10 лет</strong> на&nbsp;сцене</span>
+                <span><strong>крутые</strong> преподаватели</span>
+                <span><strong>концерты</strong> учеников</span>
+                <span><strong>винил</strong> и&nbsp;разборы</span>
+              </div>
+
+              <a class="about-action" href="#contacts">
+                Прийти в&nbsp;гости
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing" id="pricing" aria-labelledby="pricing-title">
+        <div class="pricing-wrap">
+          <div class="pricing-head">
+            <p class="section-kicker">Тарифы</p>
+            <h2 id="pricing-title" class="pricing-title">
+              <span>Выбери свой</span>
+              <span class="accent">ритм</span>
+            </h2>
+            <p>
+              Цены за&nbsp;месяц по&nbsp;любому направлению.<br />
+              Первый урок — бесплатно, без&nbsp;обязательств.
+            </p>
+          </div>
+
+          <div class="plans-grid">
+            <article class="plan-card">
+              <h3>Соло старт</h3>
+              <p class="plan-subtitle">для&nbsp;первого знакомства</p>
+              <p class="plan-price"><strong>160</strong><span>BYN / мес</span></p>
+              <p class="plan-note">4 индивидуальных урока · 60 мин</p>
+              <ul class="plan-list">
+                <li>Личный преподаватель</li>
+                <li>Программа под&nbsp;тебя</li>
+                <li>Свободный график</li>
+              </ul>
+              <a class="plan-action" href="#trial">Выбрать</a>
+            </article>
+
+            <article class="plan-card plan-card-featured">
+              <span class="plan-badge">Хит сезона</span>
+              <h3>Драйв</h3>
+              <p class="plan-subtitle">для&nbsp;стабильного роста</p>
+              <p class="plan-price"><strong>280</strong><span>BYN / мес</span></p>
+              <p class="plan-note">8 уроков · репетиционная в&nbsp;подарок</p>
+              <ul class="plan-list">
+                <li>8 индивидуальных уроков</li>
+                <li>Доступ в&nbsp;репетиционную</li>
+                <li>Запись на&nbsp;концерты школы</li>
+                <li>Скидка 10% на&nbsp;винил</li>
+              </ul>
+              <a class="plan-action plan-action-filled" href="#trial">Выбрать</a>
+            </article>
+
+            <article class="plan-card">
+              <h3>Группа</h3>
+              <p class="plan-subtitle">собрать свой состав</p>
+              <p class="plan-price"><strong>220</strong><span>BYN / мес</span></p>
+              <p class="plan-note">8 занятий в&nbsp;мини-группе · 90 мин</p>
+              <ul class="plan-list">
+                <li>Игра в&nbsp;составе</li>
+                <li>Концерт в&nbsp;конце сезона</li>
+                <li>Друзья и&nbsp;движ</li>
+              </ul>
+              <a class="plan-action" href="#trial">Выбрать</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog" id="vinyl" aria-labelledby="catalog-title">
+        <div class="catalog-wrap">
+          <div class="catalog-head">
+            <p class="section-kicker">Магазин винила</p>
+            <h2 id="catalog-title" class="catalog-title">
+              <span>Пластинки,</span>
+              <span class="catalog-title-pair">
+                <span>которые</span>
+                <span class="outline-gold">звучат</span>
+              </span>
+              <span>по-настоящему</span>
+            </h2>
+            <p>
+              Оригиналы и&nbsp;переиздания рок-классики 70–90х. Берёшь живой звук,
+              а&nbsp;не случайную покупку.
+            </p>
+          </div>
+
+          <div class="catalog-bar">
+            <div class="catalog-chips" aria-label="Фильтр каталога">
+              <button class="catalog-chip catalog-chip-active" type="button">Все</button>
+              <button class="catalog-chip" type="button">Русский рок</button>
+              <button class="catalog-chip" type="button">Рок</button>
+              <button class="catalog-chip" type="button">Метал</button>
+            </div>
+            <p>600+ в&nbsp;наличии</p>
+          </div>
+
+          <div class="records-grid">
+            <article class="record-card">
+              <div class="record-art">
+                <span class="album-disk" aria-hidden="true"></span>
+                <img class="album-cover" src="assets/record-kino.png" alt="Обложка альбома Кино" />
+              </div>
+              <div class="record-meta">
+                <div>
+                  <h3>Кино</h3>
+                  <p>1988 · LP</p>
+                </div>
+                <strong>95 р.</strong>
+              </div>
+              <a class="record-buy" href="#contacts">В&nbsp;корзину</a>
+            </article>
+
+            <article class="record-card">
+              <div class="record-art">
+                <span class="album-disk" aria-hidden="true"></span>
+                <img class="album-cover" src="assets/record-pink-floyd.png" alt="Обложка альбома Pink Floyd" />
+              </div>
+              <div class="record-meta">
+                <div>
+                  <h3>Pink Floyd</h3>
+                  <p>1979 · 2LP</p>
+                </div>
+                <strong>145 р.</strong>
+              </div>
+              <a class="record-buy" href="#contacts">В&nbsp;корзину</a>
+            </article>
+
+            <article class="record-card">
+              <div class="record-art">
+                <span class="album-disk" aria-hidden="true"></span>
+                <img class="album-cover" src="assets/record-aria.png" alt="Обложка альбома Ария" />
+              </div>
+              <div class="record-meta">
+                <div>
+                  <h3>Ария</h3>
+                  <p>1987 · LP</p>
+                </div>
+                <strong>89 р.</strong>
+              </div>
+              <a class="record-buy" href="#contacts">В&nbsp;корзину</a>
+            </article>
+
+            <article class="record-card">
+              <div class="record-art">
+                <span class="album-disk" aria-hidden="true"></span>
+                <img class="album-cover" src="assets/record-acdc.png" alt="Обложка альбома AC/DC" />
+              </div>
+              <div class="record-meta">
+                <div>
+                  <h3>AC/DC</h3>
+                  <p>1980 · LP</p>
+                </div>
+                <strong>130 р.</strong>
+              </div>
+              <a class="record-buy" href="#contacts">В&nbsp;корзину</a>
+            </article>
+
+            <article class="record-card">
+              <div class="record-art">
+                <span class="album-disk" aria-hidden="true"></span>
+                <img class="album-cover" src="assets/record-metallica.png" alt="Обложка альбома Metallica" />
+              </div>
+              <div class="record-meta">
+                <div>
+                  <h3>Metallica</h3>
+                  <p>1986 · LP</p>
+                </div>
+                <strong>135 р.</strong>
+              </div>
+              <a class="record-buy" href="#contacts">В&nbsp;корзину</a>
+            </article>
+
+            <article class="record-card">
+              <div class="record-art">
+                <span class="album-disk" aria-hidden="true"></span>
+                <img class="album-cover" src="assets/record-queen.png" alt="Обложка альбома Queen" />
+              </div>
+              <div class="record-meta">
+                <div>
+                  <h3>Queen</h3>
+                  <p>1980 · LP</p>
+                </div>
+                <strong>125 р.</strong>
+              </div>
+              <a class="record-buy" href="#contacts">В&nbsp;корзину</a>
+            </article>
+          </div>
+
+          <div class="catalog-foot">
+            <a href="#contacts">
+              Весь каталог — напиши&nbsp;нам
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews" id="reviews" aria-labelledby="reviews-title">
+        <div class="reviews-wrap">
+          <div class="reviews-head">
+            <p class="section-kicker">Отзывы учеников</p>
+            <h2 id="reviews-title" class="reviews-title">
+              <span>Что говорят наши</span>
+              <span class="accent">люди</span>
+            </h2>
+          </div>
+
+          <div class="reviews-grid">
+            <article class="review-card">
+              <p class="review-quote" aria-hidden="true">“</p>
+              <blockquote>
+                Пришёл с&nbsp;нуля, через полгода уже играл на&nbsp;концерте школы. Препод не&nbsp;грузит
+                теорией — сразу к&nbsp;делу и&nbsp;к&nbsp;любимым трекам.
+              </blockquote>
+              <p class="review-stars" aria-label="Оценка 5 из 5">★★★★★</p>
+              <div class="review-author">
+                <span class="review-avatar">АК</span>
+                <div>
+                  <h3>Артём К.</h3>
+                  <p>гитара · 8 месяцев</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="review-card">
+              <p class="review-quote" aria-hidden="true">“</p>
+              <blockquote>
+                Дочка ходит на&nbsp;вокал и&nbsp;летает от&nbsp;счастья. Видно, что преподаватели реально
+                любят музыку, а&nbsp;не просто отрабатывают часы.
+              </blockquote>
+              <p class="review-stars" aria-label="Оценка 5 из 5">★★★★★</p>
+              <div class="review-author">
+                <span class="review-avatar">МД</span>
+                <div>
+                  <h3>Марина Д.</h3>
+                  <p>вокал · 7 месяцев</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="review-card">
+              <p class="review-quote" aria-hidden="true">“</p>
+              <blockquote>
+                Брал барабаны «для&nbsp;себя», а&nbsp;в&nbsp;итоге собрали группу прямо в&nbsp;школе. Плюс
+                затащил домой винил Metallica — звук просто другой мир.
+              </blockquote>
+              <p class="review-stars" aria-label="Оценка 5 из 5">★★★★★</p>
+              <div class="review-author">
+                <span class="review-avatar">ИП</span>
+                <div>
+                  <h3>Иван П.</h3>
+                  <p>барабаны · 1 год</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="signup" id="contacts" aria-labelledby="signup-title">
+        <div class="signup-wrap">
+          <div class="signup-inner">
+            <div class="signup-copy">
+              <p class="signup-kicker">Пробное занятие</p>
+              <h2 id="signup-title" class="signup-title">
+                <span>Первый&nbsp;урок&nbsp;—</span>
+                <span class="accent">бесплатно</span>
+              </h2>
+              <p>
+                Оставь заявку — подберём преподавателя и&nbsp;удобное время. Приходи как есть,
+                инструмент дадим на&nbsp;месте.
+              </p>
+              <ul class="signup-list">
+                <li>Без&nbsp;обязательств и&nbsp;предоплаты</li>
+                <li>Подберём направление под&nbsp;тебя</li>
+                <li>Перезвоним в&nbsp;течение дня</li>
+              </ul>
+            </div>
+
+            <form class="signup-form" id="trial">
+              <label class="signup-field">
+                <span>Как тебя зовут</span>
+                <input type="text" name="name" placeholder="Имя" autocomplete="name" />
+              </label>
+
+              <label class="signup-field">
+                <span>Телефон</span>
+                <input type="tel" name="phone" placeholder="+375 (__) ___-__-__" autocomplete="tel" />
+              </label>
+
+              <label class="signup-field">
+                <span>Направление</span>
+                <select name="direction" aria-label="Выбери направление">
+                  <option value="">Выбери направление</option>
+                  <option value="vocal">Вокал</option>
+                  <option value="drums">Барабаны</option>
+                  <option value="piano">Фортепиано</option>
+                  <option value="guitar">Гитара</option>
+                </select>
+              </label>
+
+              <button class="signup-submit" type="submit">
+                Записаться на&nbsp;пробный
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6"></path>
+                </svg>
+              </button>
+              <p class="signup-note">Нажимая кнопку, ты соглашаешься на&nbsp;обработку данных</p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-wrap">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a class="brand" href="#" aria-label="VINYL·KVARTAL">
+              <span class="brand-mark" aria-hidden="true"></span>
+              <span class="brand-name">VINYL·KVARTAL</span>
+            </a>
+            <p>
+              Музыкальная школа и&nbsp;магазин винила. Учим играть и&nbsp;слушать музыку
+              по-настоящему — с&nbsp;2014 года.
+            </p>
+            <div class="footer-socials" aria-label="Социальные сети">
+              <a href="#" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="2" y="2" width="20" height="20" rx="5"></rect>
+                  <circle cx="12" cy="12" r="4"></circle>
+                  <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"></circle>
+                </svg>
+              </a>
+              <a href="#" aria-label="Telegram">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M22 3 2 10.5l6 2.2L18 6l-7 8.5V21l3.2-3.6L20 20z"></path>
+                </svg>
+              </a>
+              <a href="#" aria-label="YouTube">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="2" y="5" width="20" height="14" rx="4"></rect>
+                  <path d="M10 9l5 3-5 3z" fill="currentColor" stroke="none"></path>
+                </svg>
+              </a>
+              <a href="#" aria-label="Музыка">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M9 18V5l12-2v13"></path>
+                  <path d="m9 9 12-2"></path>
+                  <circle cx="6" cy="18" r="3"></circle>
+                  <circle cx="18" cy="16" r="3"></circle>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <nav class="footer-col" aria-label="Школа">
+            <h2>Школа</h2>
+            <a href="#learn">Направления</a>
+            <a href="#pricing">Тарифы</a>
+            <a href="#about">О&nbsp;нас</a>
+            <a href="#trial">Пробный урок</a>
+          </nav>
+
+          <address class="footer-col footer-contacts">
+            <h2>Контакты</h2>
+            <p>Минск, ул. Чапаева, 3</p>
+            <a href="tel:+375345679999">+375 34 567-99-99</a>
+            <a href="#contacts">@vinyl.kvartal</a>
+            <p>Ежедневно · 10:00–21:00</p>
+          </address>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 VINYL KVARTAL</p>
+          <p>сделано на&nbsp;виниле · 33⅓ об/мин</p>
+          <p class="footer-credit">Сайт создан на&nbsp;курсах Татьяны Крупиной</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
